@@ -1,0 +1,198 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="This webpage contain the form for a new student to get registered to a new class">
+	<meta name="keywords" content="IT Course, Course, App, Games, Web, Kids Developer, Programming Class, IT Class, Developer">
+	<meta name="author" content="Adinda Zahra, Amalia Fithri, Kezia Wijaya">
+	<meta name="referrer" content="origin">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Form</title>
+	<link type="text/css" rel="stylesheet" href="CSS/Form.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script type="text/javascript">		
+		// function show()
+		// {
+		// 	var name = document.getElementById("name").value;
+		// 	var ttl = document.getElementById("ttl").value;
+		// 	var gender = document.getElementById("gender").value;
+		// 	var address = document.getElementById("address").value;
+		// 	var telp = document.getElementById("telp").value;
+		// 	var email = document.getElementById("email").value;
+		// 	var school = document.getElementById("school").value;
+		// 	var parent = document.getElementById("parent").value;
+		// 	var noparent = document.getElementById("noparent").value;
+		// 	var acategory = document.getElementById("acategory").value;
+		// 	var ccategory = document.getElementById("ccategory").value;
+		// 	var response;
+				
+		// 		response=confirm("You have entered:" + "\n Name: " + name + "\n Birth Date: " + ttl + "\n Gender: " + gender 
+		// 							+ "\n Address: " + address + "\n Telp: " + telp + "\n Email: " + email + "\n School: " + school 
+		// 							+ "\n Guardian Name: " + parent + "\n Guardian's Telp: " + noparent + "\n Age Category: " + acategory 
+		// 							+ "\n Class Category: " + ccategory + "\n\n Do you want to confirm these details?")	
+		// 				if(response==true)
+		// 				{
+		// 					modal();
+		// 				}
+		// }	
+
+		// function modal(){
+		// <div class="modal fade" id="myModal" role="dialog">
+    	// <div class="modal-dialog">
+    
+      	// 	<div class="modal-content">
+        // 		<div class="modal-header">
+        //   			<button type="button" class="close" data-dismiss="modal">&times;</button>
+        //   			<h4 class="modal-title">HALLO FUTURE PROGRAMMER!</h4>
+        // 		</div>
+        // 		<div class="modal-body">
+		// 			<p>Thank you for register as a new student in A.K.A</p>
+		// 			<p>We will process your form right away and inform you for the re-registration via e-mail.</p>
+		// 			<p>If you have any question, feel free to contact us to the available contacts.</p>
+		// 			<p>===Stay Changing The World With Technology===</p>
+        // 		</div>
+        // 		<div class="modal-footer">
+        //   			<button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+        // 		</div>
+      	// 	</div>
+      	// </div>
+  		// </div>
+		// }
+		
+		function reset()
+		{
+			var name= "";
+			var ttl= "";
+			var gender= "";
+			var address= "";
+			var telp= "";
+			var email= "";
+			var school= "";
+			var parent= "";
+			var noparent= "";
+			var acategory= "";
+			var ccategory= "";
+		}	
+	</script>
+</head>
+
+<body>
+	<div class="navbar center">
+	<ul>
+       <li><a href="Home.html">Home</a></li>
+       <li><a href="Profile.html">Profile</a></li>
+       <li><a href="Facilities.html">Facilities</a></li>
+	   <li><a href="Enrollment.html">Enrollment</a></li>
+       <li><a href="Form.html">Form</a></li>
+    </ul>
+	</div>
+
+	
+	<form action="https://formspree.io/keziawijaya1@email.com" method="POST">
+		<div>
+				<img alt="Regis" src="Image/REGBAN.png" style="width:550px; height:110px; margin-left:410px; padding-top:30px;">
+		</div>
+		<div>
+				<img alt="detail" src="Image/REGBAN2.png" style="width:620px; height:35px; margin-top:25px; margin-left:380px;">
+		</div>
+	<table>	
+		<tr>
+		<td> Name: </td>
+		<td><input type="text" placeholder="Enter your name" size="60px" name="nama" id="name" required></td>
+		</tr>
+	
+		<!-- <tr>
+		<td> Birth Date: </td>
+		<td><input type="date" name="lahir" id="ttl" min="1999/01/01" max="2012/12/31"required>
+		<span class="validity"></td>
+		</tr>
+	
+		<tr>
+		<td> Gender: </td>
+		<td><input style="margin-left:70px" type="radio" name="jkelamin" id="gender" required>Male
+		<input style="margin-left:110px"type="radio" name="jkelamin" id="gender" required>Female
+		</td>
+		</tr>
+	
+		<tr>
+		<td> Address: </td>
+		<td><textarea rows="5" cols="45" placeholder="Enter your address" name="alamat" id="address"
+		required></textarea></td>
+		</tr>
+	
+		<tr>
+		<td> No Telp: <br>(Should be numbers and 12 digits)</td>
+		<td><input type="tel" placeholder="Enter your phone number" size="60px" name="notelp" pattern="[0][1-9][1-9][1-9][1-9][1-9][1-9][1-9][1-9][1-9][1-9][1-9]" id="telp"
+		required></td>
+		</tr> -->
+	
+		<tr>
+		<td> Email <br>(Should contain <br>@ and .):</td>
+		<td><input type="text" placeholder="Enter your E-mail ID" size="60px" name="E-mail" id="email"
+		required></td>
+		</tr>
+	
+		<!-- <tr>
+		<td> School: </td>
+		<td><input type="text" placeholder="Enter your current school" size="60px" name="sekolah" id="school"
+		required></td>
+		</tr>
+	
+		<tr>
+		<td> Guardian Name: </td>
+		<td><input type="text" placeholder="Enter your guardian name" size="60px" name="ortu" id="parent"
+		required></td>
+		</tr>
+	
+		<tr>
+		<td> Guardian's Telp: <br>(Should be numbers and 12 digits)</td>
+		<td><input type="tel" placeholder="Enter your guardian's phone number" size="60px" name="telportu" pattern="[0][1-9][1-9][1-9][1-9][1-9][1-9][1-9][1-9][1-9][1-9][1-9]" id="noparent"
+		required></td>
+		</tr>
+	
+		<tr>
+		<td>Age Category: </td>
+		<td><select id="acategory" class="form-control" required="">
+		<option value="" disabled="disabled">Select Category</option>
+		<option value="6-12th">6-12th</option>
+		<option value="13-15th">13-15th</option>
+		<option value="16-18th">16-18th</option>
+		</select></td>
+		</tr>
+	
+		<tr>
+		<td>Class Category: </td>
+		<td><select id="ccategory" class="form-control" required="">
+		<option value="" disabled="disabled">Select Category</option>
+		<option value="Application">Application</option>
+		<option value="Web">Web</option>
+		<option value="Game">Game</option>
+		</select></td>
+		</tr> -->
+	</table>
+	<br/>
+		<input type="image" src="Image/regbutton.png" alt="regis" style="margin-left:560px; margin-bottom:50px; width:120px; height:30px"/>
+		<input type="image" src="Image/resetbutton.png" alt="reset" style="margin-left: 40px; margin-bottom:50px; width:80px; height:30px" onclick="reset()"/>
+	</form>
+	
+	<footer>
+	<p id="test">&copy Copyright A.K.A Course 2018</p>
+	
+			<div>
+				<div>
+					<a href="https://twitter.com/akacourse"target="_blank" style="float: right;">
+						<img alt="Aka twitter" src="Image/twtr.png" style="width:55px;height:55px;margin-left:20px"></a>
+					<a href="https://www.instagram.com/akacourse/"target="_blank" style="float: right;">
+						<img alt="Aka instagram" src="Image/ig.png" style="width:55px;height:55px;margin-right:0px"></a>
+					<p id="konek">Connect with us:</p>
+				</div>
+			</div>
+			
+	<p id="test2"><b><u>Our Location</b></u><br>
+		Jl. Akses UI No.62 Kelapa Dua Cimanggis Depok 16951<br>
+		Phone. (021) 877 07 205 Fax . (021) 87707205<br>
+		E-mail. AKAcourse@gmail.com</p>
+	</footer>
+	</body>
+</html>

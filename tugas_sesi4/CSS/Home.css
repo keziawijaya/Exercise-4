@@ -1,0 +1,132 @@
+body {
+    background-image: url('../Image/bg5.png');
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+div.banner {
+   position: center;
+}
+
+.mySlides {
+   display:none;}
+
+* {margin:0; padding:0;}
+   
+.navbar {
+   float: left;
+   background: #2AAFEA;
+   width: 100%;
+   font-family: Future TimeSplitters;
+   font-size: 30px;
+} 
+
+footer{	
+   background: #E22761; 
+   padding: 40px; 
+   height: 80px;
+}
+
+.navbar li {
+  float: left;
+  list-style: none;
+}
+
+.navbar li a {
+   color: #FFFFFF;
+   text-decoration: none;
+   padding: 15px;
+   display: block;
+}
+.navbar li a:hover {
+   background: white;
+   color: #E22761;
+}
+
+.center ul{
+   width: -moz-fit-content;
+   width: -webkit-fit-content;
+   width: fit-content;
+   margin: auto;
+}
+
+#test{
+   text-align: center;
+   font-weight: bold;
+   font-family:Geometr706 BlkCn BT;
+   font-size: 16px;
+   color:#ffffff;
+}
+   
+#test2{
+   text-align: left;
+   margin-left: 5px;
+   margin-bottom: 10px;
+   font-family:Geometr706 BlkCn BT;
+   font-size: 15px;
+   color:#ffffff
+}
+
+#konek{
+   margin-top: 17px; 
+   margin-right: 20px; 
+   float: right;
+   font-family:Geometr706 BlkCn BT;
+   font-size:18px;
+   color:white;
+}
+
+div.polaroid1 {
+ width: 88%;
+ background-color: #F7F11C;
+ box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+ margin-bottom: 80px;
+ margin-left: 50px;
+ margin-top: 60px;
+}
+
+div.polaroid2 {
+ width: 80%;
+ background-color: #E240B8;
+ box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+ margin-bottom: 80px;
+ margin-left: 88px;
+ margin-top: 60px;
+}
+
+div.polaroid3 {
+ width: 71%;
+ background-color: #E22761;
+ box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+ margin-bottom: 80px;
+ margin-left: 90px;
+ margin-right: 49px;
+ margin-top: 60px;
+}
+
+div.container {
+ text-align: center;
+ padding: 10px 20px;
+}
+
+p.solid {
+border-style: solid;
+border-color: #E8E30F;
+}
+
+.gallery{
+margin: 10px 50px;
+margin-left: 150px;
+margin-bottom: 60px;
+}
+
+.gallery img{
+padding: 5px;
+filter: grayscale(80%);
+transition: 1s;
+}
+
+.gallery img:hover{
+filter: grayscale(0);
+transform: scale(1.1);
+}
